@@ -1,0 +1,23 @@
+#include<stdio.h>
+void prime(int a)
+{
+    if((a%2!=0) && (a%3!=0))
+    {
+        printf("1\n");
+    }
+    else if((a==1) && (a==2) && (a==3))
+    {
+        printf("1\n");
+    }
+    else
+    {
+        printf("0\n");
+    }
+}
+int main()
+{
+    int p;
+    scanf("%d",&p);
+    prime(p);
+    return 0;
+}
